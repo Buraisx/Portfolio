@@ -1,0 +1,17 @@
+#intro{
+	/*background:linear-gradient(to top,rgba(0,0,0,0.5) 100%,rgba(0,0,0,0.5) 100%), url("/images/intro2.jpg") fixed;*/
+	background:radial-gradient(closest-corner at 50% 50%, rgba(0, 0, 0, 0) 1%, rgba(66, 66, 66, 0.7) 100%) ,  url("/images/intro2.jpg") fixed;
+	background-position:center;
+	background-size:cover;
+	min-height:100vh;
+	overflow:hidden;
+}
+.center-text
+{
+	margin-top:50vh;
+	text-align:center;
+}
+.enlarged-text
+{
+	font-size:30px;
+}

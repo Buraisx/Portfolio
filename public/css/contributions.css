@@ -1,0 +1,30 @@
+.bitelist{
+	min-height:100vh;
+	background-color: #223E7B;
+}
+.gibson{
+	min-height:100vh;
+	background-color:#ffffff;
+}
+.dotstar{
+	min-height:100vh;
+	background-color:#e8e7e7;
+}
+.row{
+	margin-right:0px;
+}
+.center{
+	text-align:center;
+	align-items: center;
+	justify-content:center;
+}
+.site-image{
+	padding-top:10vh;
+	max-width:100%;
+	height:auto;
+}
+.logo-image
+{
+max-width:100%;
+	height:auto;	
+}

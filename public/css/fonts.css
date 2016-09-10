@@ -1,0 +1,46 @@
+.oswald-font{
+	font-family:"Oswald",Arial,sans-serif;
+
+}
+.roboto-font{
+	font-family:"roboto",Arial,sans-serif;
+}
+.opensans-font{
+	font-family:"Open Sans",Arial,sans-serif;
+}
+.quicksand-font{
+	font-family:"Quicksand", Arial,sans-serif;
+}
+h1{
+	font-size:50px;
+	color:black;
+}
+.p-text{
+	margin-top:2vh;
+	font-size:20px;
+	margin-bottom:5vh;
+}
+.white-text{
+	color:white;
+}
+@media only screen and (max-device-width: 768px){
+	h1{
+		font-size: 64px;
+	}
+
+	h2{
+		font-size: 52px;
+	}
+
+	h3{
+		font-size: 36px;
+	}
+
+	body{
+		font-size: 28px;
+	}
+
+	.m-text-padding{
+		padding-left: 5%; padding-right: 5%;
+	}
+}
