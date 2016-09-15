@@ -2,7 +2,11 @@
 	border-radius:0px;
 	margin-bottom:0px;
 	padding-right:20px;
-
+	transition:ease-in-out, all 0.7s;
+}
+nav:hover
+{
+	background:white;
 }
 .navbar-transparent{
 	background:transparent;
@@ -14,11 +18,25 @@
 }
 .nav>li>a:hover{
 	background:transparent;
-}
-.navbar-white{
-	display:none;
-	background:white;
+	cursor:pointer;
 }
 .navbar-shadow{
 	box-shadow:0px 5px 5px 0px rgba(0,0,0,0.3);
+}
+.navbar-white{
+	background:white;
+}
+.navTick
+{
+	transition:ease-in-out, transform 0.5s;
+	z-index:999;
+	position:fixed;
+	top:10px;
+	left:48.7%;
+	width:0;
+	height:0;
+	border-left:15px solid transparent;
+	border-right:15px solid transparent;
+	border-top:15px solid #bababa;
+	line-height:0px;
 }

@@ -3,15 +3,25 @@
 	background:radial-gradient(closest-corner at 50% 50%, rgba(0, 0, 0, 0) 1%, rgba(66, 66, 66, 0.7) 100%) ,  url("/images/intro2.jpg") fixed;
 	background-position:center;
 	background-size:cover;
-	min-height:100vh;
+	min-height:80vh;
 	overflow:hidden;
 }
-.center-text
+.intro-center
 {
-	margin-top:50vh;
+	margin-top:30vh;
 	text-align:center;
 }
 .enlarged-text
 {
-	font-size:30px;
+	font-size:2em;
+}
+.fa
+{
+	color:white;
+	padding-right:5px;
+	padding-left:5px;
+}
+.fa:hover
+{
+	opacity:0.7;
 }

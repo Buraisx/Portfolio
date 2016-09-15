@@ -4,6 +4,7 @@ myModule.directive('ngNavbarCover',['$document','$window',function($document,$wi
 	return{
 		restrict: 'A',
 		link: function(scope,element,attr){
+			var navbarRevealer = angular.element(document.getElementById('navTick'));
 			scope.onScrollFunction = function(){
 				var startLocation=element[0].offsetTop;
 
@@ -16,8 +17,9 @@ myModule.directive('ngNavbarCover',['$document','$window',function($document,$wi
 				else
 				{
 					element.removeClass("navbar-transparent");
-					element.addClass("navbar-white");
+					
 					element.addClass("navbar-shadow");
+				
 				}
 			}
 			scope.onScrollFunction();

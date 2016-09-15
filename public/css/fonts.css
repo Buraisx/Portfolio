@@ -11,9 +11,32 @@
 .quicksand-font{
 	font-family:"Quicksand", Arial,sans-serif;
 }
+.raleway-font{
+	font-family:"Raleway",Arial,sans-serif;
+
+}
+.extend-margin-top
+{
+	margin-top:10vh;
+}
+.extend-line-height
+{
+	line-height:2;
+}
+.header-underline {
+    margin: 20px auto;
+    max-width: 200px;
+    height: 3px;
+    border-top:solid 1px #c3c3c3;
+ }
+
 h1{
 	font-size:50px;
 	color:black;
+}
+.remove-margin-bottom
+{
+	margin-bottom:0;
 }
 .p-text{
 	margin-top:2vh;
@@ -22,6 +45,12 @@ h1{
 }
 .white-text{
 	color:white;
+}
+small{
+	font-size:70%;
+}
+.font-border{
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 @media only screen and (max-device-width: 768px){
 	h1{
