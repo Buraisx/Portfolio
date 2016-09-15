@@ -23,10 +23,7 @@
 	max-width:100%;
 	height:auto;
 }
-.extend-margin-top
-{
-	margin-top:10vh;
-}
+
 .logo-image
 {
 max-width:100%;
@@ -34,4 +31,17 @@ max-width:100%;
 }
 .contributions-background{
 	background: linear-gradient(to right, rgba(0,0,0,0.5)100%,rgba(0,0,0,0.6)100%), url("/images/background.jpg") fixed;
+}
+@media only screen and (max-device-width:768px){
+	.bitelist{
+		min-height:50vh;
+
+	}
+	.m-bitelist-text
+	{
+		font-size:40px;
+	}
+	.dotstar{
+		min-height:50vh;
+	}
 }

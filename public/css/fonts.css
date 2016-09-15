@@ -19,6 +19,9 @@
 {
 	margin-top:10vh;
 }
+.extend-margin-bottom{
+	margin-bottom:5vh;
+}
 .extend-line-height
 {
 	line-height:2;
@@ -42,6 +45,9 @@ h1{
 	margin-top:2vh;
 	font-size:20px;
 	margin-bottom:5vh;
+}
+.black-text{
+	color:black;
 }
 .white-text{
 	color:white;
@@ -68,8 +74,11 @@ small{
 	body{
 		font-size: 28px;
 	}
-
-	.m-text-padding{
+	.p-text{
+		text-align:center;
 		padding-left: 5%; padding-right: 5%;
+	}
+	.m-text-padding{
+		
 	}
 }

@@ -1,0 +1,14 @@
+.email-text{
+	margin-top:10vh;
+	font-size:30px;
+	padding-top:20px;
+	padding-bottom:20px;
+	border-radius:20px;
+	background-color:#ffffff;
+	border:2px solid black;
+}
+.email-text:hover{
+	
+	color:white;
+	background-color:#272727;
+}

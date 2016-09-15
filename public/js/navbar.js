@@ -16,7 +16,7 @@ myModule.directive('ngNavbarCover',['$document','$window',function($document,$wi
 				}
 				else
 				{
-					element.removeClass("navbar-transparent");
+				
 					
 					element.addClass("navbar-shadow");
 				
