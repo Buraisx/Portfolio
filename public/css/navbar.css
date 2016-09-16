@@ -30,7 +30,7 @@ nav:hover
 .navbar-white{
 	background:white;
 }
-@media (max-width:992px){
+@media (max-width:768px){
 	.navbar-toggle .navbar-toggle-span{
 		margin-top:5px;
         display: block;

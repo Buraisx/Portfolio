@@ -30,7 +30,8 @@ max-width:100%;
 	height:auto;	
 }
 .contributions-background{
-	background: linear-gradient(to right, rgba(0,0,0,0.5)100%,rgba(0,0,0,0.6)100%), url("/images/background.jpg") fixed;
+	background: linear-gradient(to right, rgba(0,0,0,0.5)100%,rgba(0,0,0,0.6)100%), url("/images/background.jpg") no-repeat fixed;
+	background-size:100%;
 }
 @media only screen and (max-device-width:768px){
 	.bitelist{
@@ -43,5 +44,8 @@ max-width:100%;
 	}
 	.dotstar{
 		min-height:50vh;
+	}
+	.gibson{
+		min-height:60vh;
 	}
 }
