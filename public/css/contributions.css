@@ -4,7 +4,7 @@
 }
 .gibson{
 	min-height:100vh;
-	background-color:#ffffff;
+	background-color:#ffb34d;
 }
 .dotstar{
 	min-height:100vh;
@@ -19,7 +19,7 @@
 	justify-content:center;
 }
 .site-image{
-	margin-top:10vh;
+	margin-top:5vh;
 	max-width:100%;
 	height:auto;
 }
