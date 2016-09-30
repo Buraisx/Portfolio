@@ -4,6 +4,8 @@
 	padding-right:20px;
 	border-color:transparent;
 	transition:ease-in-out, all 0.7s;
+	-webkit-transition:ease-in-out, all 0.7s;
+	-moz-transition:ease-in-out, all 0.7s;
 }
 nav:hover
 {

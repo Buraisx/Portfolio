@@ -23,6 +23,16 @@
 	max-width:100%;
 	height:auto;
 }
+.fade{
+	opacity: 0;
+	transition: 1s linear all;
+	-webkit-transition: 1s linear all;
+	-moz-transition: 1s linear all;
+}
+
+.fadein{
+	opacity: 1;
+}
 
 .logo-image
 {
