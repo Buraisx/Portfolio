@@ -40,10 +40,14 @@ max-width:100%;
 	height:auto;	
 }
 .contributions-background{
-	background: linear-gradient(to right, rgba(0,0,0,0.5)100%,rgba(0,0,0,0.6)100%), url("/images/background.jpg") no-repeat fixed;
-	background-size:100%;
+	background: linear-gradient(to right, rgba(0,0,0,0.5)100%,rgba(0,0,0,0.6)100%),
+				 url("/images/background.jpg")
+				 center / cover
+				 no-repeat
+				 fixed;
 }
 @media only screen and (max-device-width:768px){
+	.contributions
 	.bitelist{
 		min-height:50vh;
 
