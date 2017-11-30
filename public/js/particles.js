@@ -20,7 +20,7 @@ myModule.directive('ngParticles',['$document','$window', '$interval',function($d
 			var particles=[];
 
 			//create 15 particles
-			for(var i = 0; i<15;i++)
+			for(var i = 0; i<20;i++)
 			{
 				particles.push(new Particle());
 			}
